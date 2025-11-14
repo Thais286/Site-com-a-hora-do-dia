@@ -7,7 +7,7 @@ function Carregar(){
   msg.innerHTML = `Agora são ${hora} horas.`
   if (hora >= 0 && hora < 12 && hora < 18) {
     //BOM DIA !
-  img.src = 'fotomanhã.png'
+  img.src = 'fotomanha.png'
   document.body.style.background = '#4e7fafff'
 } else if (hora >=12 && hora < 18){
     //BOA TARDE!
@@ -19,3 +19,4 @@ function Carregar(){
    document.body.style.background = '#08012eff'
   }
 }
+
